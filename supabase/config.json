@@ -1,0 +1,11 @@
+{
+  "project_id": "azuslvofwpnqoxdvvpqg",
+  "functions": {
+    "serve": {
+      "env_files": [".env", "functions/.env"]
+    },
+    "deploy": {
+      "env_files": ["functions/.env"]
+    }
+  }
+} 
